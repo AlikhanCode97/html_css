@@ -4,6 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      .amazon-link{
+        color: rgb(0, 113, 133);
+      }
+      .amazon-link:hover{
+        color: rgb(199, 81, 31);
+      }
+      .Nike{
+        font-weight: bold;
+        font-size: 24px;
+      }
+      .price{
+        color: green;
+        font-weight: bold;
+
+      }
+      .add{
+        background-color: rgb(255, 216, 20);
+        color: black;
+        height: 36px;
+        padding: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 18px;
+        border: none;
+        cursor: pointer;
+        margin-left: 8px;
+        transition: background-color 0.15s , opacity 0.15s;
+      }
+      .add:hover{
+        background-color:  rgb(245, 205, 3);
+      }
+      .add:active{
+        opacity: 0.6;
+      }
+      .buy{
+        background-color: rgb(255, 177, 20);
+        color: black;
+        height: 36px;
+        padding: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 18px;
+        border: none;
+        cursor: pointer;
+        margin-left: 8px;
+        transition: background-color 0.15s , opacity 0.15s;
+
+      }
+      .buy:hover{
+        background-color: rgb(250, 137, 0);
+
+      }
+      .buy:active{
+        opacity: 0.5;
+      }
+
+    </style>
 </head>
 <body>
 
@@ -28,11 +86,11 @@
 
     <a href="https://www.google.com/" target="_blank">Search with google</a>
     <p></p>
-    <a href="https://www.amazon.com/" target="_self">Back to amazon</a>
-    <p>Nike Black running shoes</p>
-    <p>$39 - in stock </p>
+    <a href="https://www.amazon.com/" class="amazon-link" target="_self">Back to amazon</a>
+    <p class="Nike">Nike Black running shoes</p>
+    <p class="price">$39 - in stock </p>
     <p>Free delivery tomorrow</p>
-    <button>Add to cart</button>
-    <button>Buy now</button>
+    <button class="add">Add to cart</button>
+    <button class="buy">Buy now</button>
   </body>
 </html>

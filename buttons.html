@@ -14,6 +14,13 @@
       width: 105px;
       cursor: pointer;
       margin-right: 8px;
+      transition: opacity 0.15s;
+    }
+    .subscribe:hover{
+      opacity: 0.8;
+    }
+    .subscribe:active{
+      opacity: 0.5;
     }
     .join{
       background-color: white;
@@ -25,7 +32,15 @@
       width: 62px;
       cursor: pointer;
       border-style: solid;
+      transition: background-color 0.15s, color 0.15s;
       
+    }
+    .join:hover{
+      background-color: rgb(41,118,211);
+      color: white;
+    }
+    .join:active{
+      opacity: 0.7;
     }
     .tweet{
       border: 1px solid rgb(2,158,255);
@@ -39,6 +54,10 @@
       width: 70px;
       cursor: pointer;
       margin-left: 8px;
+      transition: box-shadow 0.15s;
+    }
+    .tweet:hover{
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
     }
 
     .Request{
@@ -47,7 +66,11 @@
       padding: 10px;
       margin-left: 8px;
       cursor: pointer;
-
+      border: none;
+      transition:opacity 0.15;
+    }
+    .Request:hover{
+      opacity: 0.8;
     }
     .Amazon{
       background-color: rgb(255, 216, 20);
@@ -60,6 +83,10 @@
       border: none;
       cursor: pointer;
       margin-left: 8px;
+      transition: background-color 0.5s;
+    }
+    .Amazon:hover{
+      background-color: rgb(245, 205, 3);
     }
     .github{
       background-color: rgb(46, 164, 79);
@@ -72,6 +99,10 @@
       border: none;
       cursor: pointer;
       font-weight: bold;
+      transition: box-shadow 0.15s;
+    }
+    .github:hover{
+      box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
     }
     .bootstrap{
       background-color: rgb(121,82,179);
@@ -84,7 +115,11 @@
       border-radius: 2px;
       cursor: pointer;
       font-weight: bold;
+      transition: background-color 0.15s;
 
+    }
+    .bootstrap:hover{
+      background-color: rgb(99, 60, 156);
     }
     .download{
       color: rgb(108,117,125);
@@ -96,6 +131,11 @@
       padding-left: 15px;
       padding-right: 15px;
       cursor: pointer;
+      transition: background-color 0.15s , color 0.15s;
+    }
+    .download:hover{
+      background-color: rgb(108,117,125);
+      color: white;
     }
     .linkedln{
       height: 36px;
@@ -109,9 +149,14 @@
       border: none;
       border-radius: 18px;
       font-weight: bold;
+      transition:background-color 0.15s;
 
     }
+    .linkedln:hover{
+      background-color: rgb(2, 70, 138);
+    }
     .save{
+      
       background-color: white;
       color: rgb(10,102,194);
       cursor: pointer;
@@ -121,9 +166,14 @@
       padding: 10px;
       padding-left: 15px;
       padding-right: 15px;
-      margin-top: 10px;
+      
       font-weight: bold;
+      transition: border-width 0.15s , background-color 0.15s;
 
+    }
+    .save:hover{
+      background-color: rgb(226, 240, 254);
+      border-width: 2px;
     }
   </style>
 </head>
