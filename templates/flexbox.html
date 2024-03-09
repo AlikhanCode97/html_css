@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox</title>
+</head>
+<body>
+  <div style="display: flex; flex-direction: row;"> 
+    <div class="div1" style="background-color: lightblue;">div 1</div>
+    <div class="div2" style="background-color: aqua;"><p>dddd</p> div 2</div>
+  </div>
+
+
+  <div style="display: flex; flex-direction: row; margin-top: 50px;"> 
+    <div class="div1" style="background-color: lightblue; width: 100px;">100px</div>
+    <div class="div2" style="background-color: aqua; flex: 1;">flex1</div>
+  </div>
+
+  <div style="display: flex; flex-direction: row; margin-top: 50px;"> 
+    <div class="div2" style="background-color: lightblue; flex: 1;">flex1</div>
+    <div class="div1" style="background-color: aqua; width: 100px;">100px</div>
+    <div class="div1" style="background-color: lightblue; flex: 2;">flex2</div>
+  </div>
+
+  <div style="display: flex; flex-direction: row; margin-top: 50px; height: 70px; border: 1px solid red;
+  justify-content: end;"> 
+    <div class="div2" style="background-color: lightblue; width: 100px;">100</div>
+    <div class="div1" style="background-color: aqua; width: 100px;">100px</div>
+    <div class="div1" style="background-color: lightblue; width: 100px;">100</div>
+  </div>
+
+  <div style="display: flex; flex-direction: row; margin-top: 50px; height: 70px; align-items: end; border: 1px solid red;
+  justify-content: space-between;"> 
+    <div class="div2" style="background-color: lightblue; width: 100px;">100</div>
+    <div class="div1" style="background-color: aqua; width: 100px;">100px</div>
+    <div class="div1" style="background-color: lightblue; width: 100px;">100</div>
+  </div>
+</body>
+</html>
